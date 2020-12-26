@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Log\log_allmidu
+> s.log
+  log type:  text
+ opened on:   8 Sep 2020, 14:10:29
+
+. use "D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Data\allmidus.dta"
+(Midlife in the United States (MIDUS 1), 1995-1996, Main, Siblings and Twin Data)
+
+. save "D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Data\allmidus_rev.dt
+> a", replace
+(note: file D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Data\allmidus_re
+> v.dta not found)
+file D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Data\allmidus_rev.dta s
+> aved
+
+. use "D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Data\allmidus_rev.dta
+> ", replace
+(Midlife in the United States (MIDUS 1), 1995-1996, Main, Siblings and Twin Data)
+
+. 
+. 
+end of do-file
+
+. do "C:\Users\HASSAN~1\AppData\Local\Temp\STD370_000000.tmp"
+
+. log close
+      name:  <unnamed>
+       log:  D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Log\log_allmidu
+> s.log
+  log type:  text
+ closed on:   8 Sep 2020, 14:11:09
+-----------------------------------------------------------------------------------------

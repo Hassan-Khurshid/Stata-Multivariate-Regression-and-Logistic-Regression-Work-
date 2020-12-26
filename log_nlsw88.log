@@ -1,0 +1,44 @@
+-----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Log\log_nlsw88.
+> log
+  log type:  text
+ opened on:   9 Sep 2020, 03:12:24
+
+. numlabel, add
+
+. gen race_copy = race
+
+. label variable race_copy "Race of Respondents"
+
+. label define newrace 1 "White" 2 "Black" 3 "Other Race"
+
+. label values race_copy newrace
+
+. numlabel newrace, add
+
+. tab race_copy
+
+      Race of |
+  Respondents |      Freq.     Percent        Cum.
+--------------+-----------------------------------
+     1. White |      1,637       72.89       72.89
+     2. Black |        583       25.96       98.84
+3. Other Race |         26        1.16      100.00
+--------------+-----------------------------------
+        Total |      2,246      100.00
+
+. 
+end of do-file
+
+. close log
+command close is unrecognized
+r(199);
+
+. log close
+      name:  <unnamed>
+       log:  D:\Rutgers\Sem III\Applied Multivariate Methods\AMM\Analysis\Log\log_nlsw88.
+> log
+  log type:  text
+ closed on:   9 Sep 2020, 03:53:48
+-----------------------------------------------------------------------------------------
